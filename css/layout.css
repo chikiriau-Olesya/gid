@@ -1,53 +1,136 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
-html, body{
+html, body {
     width: 100%;
     height: 100%;
     margin-top: 0;
     
 }
-body{
+body {
     position: relative;
     font-family: 'Open Sans', sans-serif;
     font-size: 21px;
 }
-a{
+a {
     color: #0196EA;
     text-decoration: none;
     font-weight: 700;
     
 }
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 h1,
 h2,
 h3,
-h4{
+h4 {
     color: #2D2FEE;
 }
 h3,
-h4{
+h4 {
     line-height: 145%;
     font-weight: bold;
 }
-h1{
+h1 {
     color: white;
     font-weight: bold;
     font-size: 87px;
     line-height: 118px;
 }
-h2{
+h2 {
     font-weight: bold;
     font-size: 54px;
     line-height: 120%;
 }
-h3{
+h3 {
     font-size: 37px;
 }
-h4{
+h4 {
     font-size: 28px;
 }
-p{
+h3 + p {
+    margin-top: 31px;
+}
+p {
     line-height: 145%;
+    margin-top: 20px;
+}
+nav {
+    padding-top: 38px;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+ul .nav-list-item:first-of-type {
+    margin-right: 519px;
+}
+.item-list-links {
+  margin-right: 60px;
+    
+}
+.item-list-links:last-child {
+    margin-right: 0px;
+}
+.item-list-links a {
+    font-weight: normal;
+}
+ul .nav-list-item a {
+    font-size: 16px;
+    color: white;
+}
+.list-links {
+    margin-top: 152px;
+    display: flex;
+    flex-direction: row;
+}
+.list-links-item {
+    font-size: 18px;
+    margin-right: 34px;
+}
+.list-links-item a {
+    color: #8CE2FF;
+} 
+
+.list-links-item a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.up-link {
+    margin-top: 135px;
+    margin-bottom: 110px;
+    text-align: end;
+}
+.btn-up {
+    color: #2D2FEE;
+}
+.btn-up:hover {
+    text-decoration: none;
+}
+ footer {
+    height: 170px;
+    background: #2D2FEE;
+    color: white;
+   
+}
+.footer-block{
+    width: 950px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 28px;
+}
+ .footer-block div {
+    width: 50%;
+}
+.desc p:last-child {
+    font-weight: bold;
+    margin-top: 5px;
+}
+ .socials {
+    text-align: end;
+}
+.socials a {
+    margin-right: 10px;
 }

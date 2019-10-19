@@ -1,72 +1,78 @@
 @import "layout.css";
 
-body div{
+body .first,
+body .second  {
     margin: 0 auto;
     text-align: center;
 }
-.first{
-    height: 900px;
+.first {
+    height: 800px;
     width: 100%;
     background-image: url(../img/main-bc.png);
     background-repeat: no-repeat;
     position: relative;
 }
- .content{
-    width: 754px;
-   
+ .first .content{
+    position: absolute;
+    left: 22%;
+    top: 45%;
+    transform: translateY(-50%);
+    letter-spacing: 1px;
 }
-
-h1+div{
+.first div p {
     color: white;
+    width: 754px;
 }
-.arrow-down-img{
+.first a {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 50px;
+}
+.first a img {
     width: 40px;
     height: 21px;
 }
-.arrow-down-img:hover{
+.first a img:hover {
     width: 50px;
     height: 30px;
     transition: .3s ease-out;
 }
- 
-
-.second{
+.second {
     padding-top: 70px;
     height: 800px;
+    width: 754px;
 }
-h2 + p{
+h2 + p {
  margin-top: 24px;
-
 }
-.list{
+.list {
     margin-top: 106px;
     display: flex;
-    flex-direction: row;
     text-align: center;
     align-items: center;
 }
-.list-element{
+.list-element {
     display: flex;
     flex-direction: column;
     width: 212px;
-    
+    margin-right: 58px;
 }
-ul .list-element:nth-child(2){
-    margin-right: 75px;
-    margin-left: 75px;
-    margin-top: -25px;
-}
-.list-element:last-child{
+
+.list-element:last-child {
     margin-top: 19px;
+    margin-right: 0px;
 }
-.link{
+.list-element img:last-child{
+    height: 157px;
+}
+.link {
     margin-top: 48px;
     font-size: 28px;
 }
-.link:nth-child(2){
-    margin-top: 38px;
-}
-.link-paragraph{
+
+.link-paragraph {
     margin-top: 22px;
     text-align: center;
 }
