@@ -1,0 +1,72 @@
+@import "layout.css";
+
+body div{
+    margin: 0 auto;
+    text-align: center;
+}
+.first{
+    height: 900px;
+    width: 100%;
+    background-image: url(../img/main-bc.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+ .content{
+    width: 754px;
+   
+}
+
+h1+div{
+    color: white;
+}
+.arrow-down-img{
+    width: 40px;
+    height: 21px;
+}
+.arrow-down-img:hover{
+    width: 50px;
+    height: 30px;
+    transition: .3s ease-out;
+}
+ 
+
+.second{
+    padding-top: 70px;
+    height: 800px;
+}
+h2 + p{
+ margin-top: 24px;
+
+}
+.list{
+    margin-top: 106px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+.list-element{
+    display: flex;
+    flex-direction: column;
+    width: 212px;
+    
+}
+ul .list-element:nth-child(2){
+    margin-right: 75px;
+    margin-left: 75px;
+    margin-top: -25px;
+}
+.list-element:last-child{
+    margin-top: 19px;
+}
+.link{
+    margin-top: 48px;
+    font-size: 28px;
+}
+.link:nth-child(2){
+    margin-top: 38px;
+}
+.link-paragraph{
+    margin-top: 22px;
+    text-align: center;
+}
