@@ -61,23 +61,26 @@ nav {
 nav ul {
     display: flex;
     flex-direction: row;
-}
-ul .nav-list-item:first-of-type {
-    margin-right: 519px;
+    margin-right: 80px;
+    margin-left: 80px;
 }
 .item-list-links {
-  margin-right: 60px;
-    
+  margin-right: 60px; 
 }
-.item-list-links:last-child {
-    margin-right: 0px;
-}
-.item-list-links a {
-    font-weight: normal;
+.nav-list-item {
+    margin-right: 34px;
 }
 ul .nav-list-item a {
     font-size: 16px;
     color: white;
+    font-weight: normal;
+}
+ul .nav-list-item .first-link {
+    font-weight: 700;
+    margin-right: 84px;
+}
+.nav-list-item:last-child {
+    margin-left: 660px;
 }
 .list-links {
     margin-top: 152px;

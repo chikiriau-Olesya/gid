@@ -6,7 +6,7 @@ body .second  {
     text-align: center;
 }
 .first {
-    height: 800px;
+    height: 900px;
     width: 100%;
     background-image: url(../img/main-bc.png);
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body .second  {
 }
  .first .content{
     position: absolute;
-    left: 22%;
+    left: 24%;
     top: 45%;
     transform: translateY(-50%);
     letter-spacing: 1px;
@@ -28,7 +28,7 @@ body .second  {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    margin-bottom: 50px;
+    margin-bottom: 120px;
 }
 .first a img {
     width: 40px;
@@ -68,11 +68,11 @@ h2 + p {
     height: 157px;
 }
 .link {
-    margin-top: 48px;
+    margin-top: 50px;
     font-size: 28px;
 }
 
 .link-paragraph {
-    margin-top: 22px;
+    margin-top: 1px;
     text-align: center;
 }

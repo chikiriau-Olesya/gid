@@ -1,7 +1,7 @@
 @import "layout.css";
 
 .main-screen {
-    background-image: url(../img/map-bc.png);
+    background-image: url(../img/map-bcc.png);
     background-repeat: no-repeat;
     height: 1040px;
 }
@@ -53,33 +53,62 @@ h3 + p {
 }
 .container-block {
     position: relative;
-    margin-bottom: 95px;
+    margin-bottom: 113px;
 }
 .block-content {
     display: flex;
     flex-direction: row;
     margin-bottom: 64px;
 }
-.block-content-text {
+.block-content-text,
+.block-content-text-rev{
     width: 552px;
+}
+.block-content-text {
     margin-right: 35px;
 }
-
-
-
-
+.block-content-text-rev{
+    margin-right: 0px;
+    margin-left: 70px;
+}
+.food-img,
+.aq-img,
+.typ-img,
+.way-img {
+    position: absolute;
+}
 .food-img {
     width: 634.94px;
     height: 605.89px;
     margin-left: -260px;
     margin-top: -80px;
-    position: absolute;
+}
+.aq-img {
+    right: 0;
+    margin-right: -243px;
+    margin-top: -40px;
+}
+.typ-img {
+    width: 415px;
+    height: 516px;
+    margin-left: -200px;
+    margin-top: -60px;
+}
+.way-img {
+    width: 712.05px;
+    height: 501px;
+    right: 0;
+    margin-right: -300px;
+    margin-top: -270px;
+}
+.food-img + div,
+.typ-img + div {
+    margin-left: 400px;
 }
 .block-content-text-special {
     margin-left: 392px;
     margin-right: 0px;
 }
-
 h4 + p {
     margin-top: 29px;
 }
