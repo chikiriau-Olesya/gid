@@ -21,7 +21,7 @@ ul .nav-list-item a  {
 }
 .illustr-img {
     margin-top: -30px;
-    margin-left: 30px;
+    margin-left: 106px;
 }
 .links {
     margin-top: 90px;
@@ -34,7 +34,7 @@ ul .nav-list-item a  {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-right: 181px;
+    margin-right: 240px;
 }
 .links-block-item img + a {
     margin-top: 17px;
