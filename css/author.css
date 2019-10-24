@@ -39,6 +39,12 @@ ul .nav-list-item a  {
 .links-block-item img + a {
     margin-top: 17px;
 }
+.links-block-item:nth-of-type(2) img + a{
+    margin-top: 20px;
+}
+.links-block-item:last-of-type img + a{
+    margin-top: 31px;
+}
 .links-block-item a:after {
     content:"";
     background-image: url(../img/small-arrow.svg);
