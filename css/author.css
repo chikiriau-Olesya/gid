@@ -43,7 +43,7 @@ ul .nav-list-item a  {
     margin-top: 20px;
 }
 .links-block-item:last-of-type img + a{
-    margin-top: 31px;
+    margin-top: 37px;
 }
 .links-block-item a:after {
     content:"";
