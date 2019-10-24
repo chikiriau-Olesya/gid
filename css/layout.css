@@ -4,18 +4,17 @@ html, body {
     width: 100%;
     height: 100%;
     margin-top: 0;
-    
 }
 body {
     position: relative;
     font-family: 'Open Sans', sans-serif;
     font-size: 21px;
+    width: 1440px;
 }
 a {
     color: #0196EA;
     text-decoration: none;
     font-weight: 700;
-    
 }
 a:hover {
     text-decoration: underline;
